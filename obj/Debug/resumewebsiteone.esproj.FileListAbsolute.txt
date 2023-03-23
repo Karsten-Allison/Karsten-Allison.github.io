@@ -1,0 +1,2 @@
+C:\Users\Karst\Desktop\C20222023\resumewebsiteone\resumewebsiteone\obj\Debug\resumewebsiteone.esproj.SuggestedBindingRedirects.cache
+C:\Users\Karst\Desktop\C20222023\resumewebsiteone\resumewebsiteone\obj\Debug\resumewebsiteone.esproj.CoreCompileInputs.cache
