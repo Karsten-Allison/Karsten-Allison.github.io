@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b480eda.css",
-    "main.js": "/static/js/main.312d27e0.js",
+    "main.css": "/static/css/main.484e5730.css",
+    "main.js": "/static/js/main.224ba530.js",
     "static/media/HeimdallUnity.gif": "/static/media/HeimdallUnity.4b07b438402dff31b0a9.gif",
     "static/media/RSSFeed.png": "/static/media/RSSFeed.6097fc8d5c439aa6e8dc.png",
     "static/media/SpreadsheetUndoRedo.gif": "/static/media/SpreadsheetUndoRedo.7605872efc01edf4c649.gif",
@@ -10,11 +10,11 @@
     "static/media/StarforceStats.png": "/static/media/StarforceStats.8129406c4265c8511cec.png",
     "static/media/CubeStats.png": "/static/media/CubeStats.793654ab28e9aac21b35.png",
     "index.html": "/index.html",
-    "main.3b480eda.css.map": "/static/css/main.3b480eda.css.map",
-    "main.312d27e0.js.map": "/static/js/main.312d27e0.js.map"
+    "main.484e5730.css.map": "/static/css/main.484e5730.css.map",
+    "main.224ba530.js.map": "/static/js/main.224ba530.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b480eda.css",
-    "static/js/main.312d27e0.js"
+    "static/css/main.484e5730.css",
+    "static/js/main.224ba530.js"
   ]
 }
