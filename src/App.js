@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import ImageCarousel from "./ImageCarousel";
 import CopyText from "./CopyText"
+import Dropdown from "./Dropdown"
+
 import KarstenImage from "./images/Karsten.jpg"
 import HeimdallSwagger from "./images/HeimdallSwagger.png"
 import HeimdallUnity from "./images/HeimdallUnity.gif"
@@ -53,25 +55,28 @@ function App() {
     return (
         <div className="App">
             <div className="sidebar">
-                <img src={KarstenImage} alt="" />
-                <ul>
-                    <CopyText />
-                    <li><a href="https://www.linkedin.com/in/karstenallison/">LinkedIn</a></li>
-                    <li><a href="https://github.com/Karsten-Allison">GitHub</a></li>
-                </ul>
+                <div className="sidebar-content">
+                    <img src={KarstenImage} alt="" />
+                    <ul>
+                        <CopyText />
+                        <li><a href="https://www.linkedin.com/in/karstenallison/">LinkedIn</a></li>
+                        <li><a href="https://github.com/Karsten-Allison/">GitHub</a></li>
+                    </ul>
+                </div>
+                <div className="belowsidebar">
+                    <Dropdown label="Education">
+                        <ul>
+                            <li><strong>Bachelor of Software Engineering</strong></li>
+                            <li>Washington State University, Expected 06/2024</li>
+                        </ul>
+                        <ul>
+                            <li><strong>Associate in Science</strong></li>
+                            <li>Edmonds Community College, Awarded 2020</li>
+                        </ul>
+                    </Dropdown>
+                </div>
             </div>
             <div className="main">
-                <h3>Education</h3>
-                <hr />
-                <ul>
-                    <li><strong>Bachelor of Software Engineering</strong></li>
-                    <li>Washington State University, Expected 06/2024</li>
-                </ul>
-                <ul>
-                    <li><strong>Associate in Science</strong></li>
-                    <li>Edmonds Community College, Awarded 2020</li>
-                </ul>
-                <hr />
                 <h3>My Projects</h3>
                 <hr />
                 <ul>
