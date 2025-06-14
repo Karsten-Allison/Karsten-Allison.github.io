@@ -6,18 +6,18 @@ import Dropdown from "./Dropdown"
 
 import KarstenImage from "./images/Karsten.jpg"
 import HeimdallSwagger from "./images/HeimdallSwagger.png"
-import HeimdallUnity from "./images/argif2.gif"
+import Argif2 from "./images/argif2.gif"
 import SpreadsheetEdit from "./images/SpreadsheetEdit.gif"
 import SpreadsheetUndoRedo from "./images/SpreadsheetUndoRedo.gif"
 
 const images = [
+    Argif2,
     HeimdallSwagger,
-    HeimdallUnity,
 ];
 
 const captions = [
-    "Swagger UI documenting the API I created in Entity Framework",
     "Proof of concept AR instruction demo",
+    "Swagger UI documenting the API I created in Entity Framework",
 ];
 
 const images2 = [
